@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    background-color: aliceblue;
+    width: 100%;
+}
+.nav-items{
+    align-items: end;
+    display: flex;
+    margin-right: 20px;
+}
+.nav-items > ul{
+    list-style-type: none;
+    display: flex;
+    padding-right:100px ;
+}
+.login-panel{
+    margin-bottom: 22px;
+}
+.login-button{
+    margin-right: 10px;
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid  rgb(228, 228, 228);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.login-button:hover{
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    /* background-color: #9e9fa3; */
+}
+.nav-items > ul > li{
+    padding: 10px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+Link{
+    text-decoration: none;
+}
+.links{
+    padding: 10px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none ;
+    color: #282c3f;
+}
+.logo{
+    margin-top: 8px;
+    margin-left: 30px;
+    width: 150px;
+    height: 56.29px;
+}
+.card{
+    width: 240px;
+    border: 0px solid black;
+    /* padding: 0.1rem; */
+    display: block;
+    border-radius: 10px;
+    color: #282c3f;
+    /* margin: 10px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+    text-decoration: none;  
+    padding-bottom: 10px;  
+}
+.card:hover{
+    /* box-shadow: 10px 10px 40px 2px rgba(168, 167, 167, 0.4); */
+    /* border: 1px solid rgb(228, 228, 228); */
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.card > img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.resraurant-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    padding-left: 30px;
+   
+
+}
+.search-container{
+    margin-left: 30px;
+}
+.search-input{
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid rgb(150, 150, 150) ;
+}
+.search-btn{
+    height: 30px;
+    width: 70px;
+    border: 1px solid rgb(150, 150, 150);
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #282c3f;
+    font-weight: 600;
+
+}
+.simmer-img{
+    margin: 200px;
+    margin-bottom: -50px;
+}
+.shimmer-card{
+    width: 240px;
+    height: 370px;
+    background-color: #ebe7e7;
+    margin: 20px;
+    border-radius: 20px;
+}
